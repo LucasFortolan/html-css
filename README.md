@@ -5,3 +5,5 @@
  
  Fiz meu próprio resumo dos vídeos e do material disponibilizado e coloquei no word.
 Link para acessar: https://docs.google.com/document/d/1AdOClTkWyqT1IYin8wU6Mc3vgj8SRs5iMA-JzslLS3A/edit?usp=sharing
+
+<a href="https://lucasfortolan.github.io/html-css/exercicio/ex002/index.html">Executar o exercício 001
