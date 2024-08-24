@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito/destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a TAG B (não semântica).</p>
+    <p>Nesta frase, temos um <strong>termo em destaque</strong> usanod a tag STRONG semântica</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> isando a tag EM (semantica)</p>
+    <h2><mark>Texto Marcado</mark></h2>
+    <p>Alterar cor, <mark style="background-color:rgb(127, 255, 155)"> <mark> texto marcado  </p>''
+    <p><del>Texto Deleta</del>, deve ser desconsiderado pelo leitor.</p>
+    <p><ins>Texto inserido</ins>, o texto deve ser prestado atenção (sublinha o texto)</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto Sublinhado</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+    <h1>Outras formatações / Pré-Formatação</h1>
+    <h2>Código-fonte</h2>
+    <hr>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+    num =int(input('Digite um numero'))
+    if num % 2 = 0:
+        print (f'O Número {num} é PAR')
+    else:
+        print (f'O Número {num} é IMPAR')
+    print('Fim de programa')
+        </code>
+    </pre>
+    <h2>Citações Simples</h2> <!--Utiliza a TAG q, e já coloca as "" para citação-->
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rapido</q></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y"> 
+        A diferença entre elementos online e um bloco de texto é importante.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascadind Style Sheets">CSS</abbr>. Estou adorando</p>
+</body>
+</html>

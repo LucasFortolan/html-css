@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*
+    em HTML é id     = em CSS é #
+    em HTML é class  = e, CSS é .
+
+    - id é único, de acordo com a W3C não pode usar o mesmo ID para h1 ou qualquer elemento
+
+    - class é multiplo
+
+    não classifique pela forma (verde, azul), mas pela funcionalidade, pois futuramente pode ser alterado a forma para outra cor.
+*/
+body {
+    background-color: rgb(205, 255, 203);
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+/*Poderia ser apenas o ID: #principal*/
+h1#principal {
+    text-align: center;
+    background: #3c805e;
+    color: white;
+}
+
+h2 {
+    color: #3c805e;
+}
+
+.basico {
+    color: #3c805e;
+}
+
+.intermediario {
+    color: #80793c;
+}
+
+.avancado {
+    color: #803c3c;
+}
+
+.destaque {
+    background-color: #c5c56070;
+}

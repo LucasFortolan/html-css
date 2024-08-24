@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::  = pseudo-element
+            >   = clindren (filho)
+            
+            - id é único, de acordo com a W3C não pode usar o mesmo ID para h1 ou qualquer elemento
+            - class é multiplo
+            Importante: não classifique pela forma (verde, azul), mas pela funcionalidade, pois futuramente pode ser alterado a forma para outra cor.
+
+            - Pseudo Classes (:) definem estado de elementos dentro do HTML
+
+            - Pseudo Elemento (::), age no conteudo periferico, classes, elementos
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Pseudo:Classes*/
+        a:visited { /*Se já visitei o site*/
+            color: darkred
+        }
+
+        a:hover { /*Passo o mouse*/
+            color: black;
+            text-decoration: underline;
+        }
+        a:active { /*Quando clico*/
+            color: yellow
+        }
+        /*Classe*/
+        .especial {
+            background-color: rgb(255,140,140);
+        }
+
+        /*Pseudo::Elemento*/
+        .especial::before { /*Antes do link*/
+            content: '🔗';
+        }
+        .especial::after { /*Depois do link*/
+            content: '🔗';
+            text-decoration: nome;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://cursoemvideo.com" class="especial" >Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

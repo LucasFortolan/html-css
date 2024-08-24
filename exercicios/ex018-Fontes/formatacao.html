@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Wold Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas:
+            em, ex (altera relativa a x),rem, vw (viewport), vh, %
+            Geralmente, é o tamanho padrão, W3C, recomenda usar o px, em vez do pt (ponto) utilizado no word
+            16 geralmente = 1 em
+            */
+            font-size: 1em; 
+            font-weight:normal; /* Peso das fontes: lighter normal bold bolder*/
+            font-style: italic;
+            text-decoration: underline;
+            /* Dependendo da fonte, não irá permitir tantas combinações*/
+        }
+
+        h1 {
+            /* shorthand font: é descrito nessa ordem
+            - font-style -> font-weight -> font-size -> font-family
+            rdd
+            Opção não utilizando o shorhand font:
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime iure reiciendis asperiores commodi? Perferendis possimus consectetur sequi sapiente a quas reprehenderit quis? Modi, quam commodi. Natus deleniti ipsum saepe</p>
+    <h2>Exemplos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorem suscipit quisquam maiores sed similique, voluptatem ut laudantium non fugiat, nesciunt ipsam tempora dignissimos? Reprehenderit perferendis laboriosam veniam maxime eligendi?</p>
+    
+</body>
+</html>
